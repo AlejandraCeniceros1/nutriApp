@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Models\Paciente;
 
-class PacientesController extends Controller
+class PacientesController extends  Controller
 {
     public function index() {
         $paciente = Paciente::all();
